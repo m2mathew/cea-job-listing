@@ -1,0 +1,46 @@
+body {
+	margin: 0 auto;
+	padding: 0;
+	font-family: 'Arial';
+}
+
+.nav {
+	background-color: #fff;
+	padding: 20px;
+}
+
+main header {
+	margin: 0 auto;
+	text-align: center;
+	background-color: #1C2334;
+	padding: 20px;
+	color: #fff;
+}
+
+main header p {
+	color: #2BC0F5;
+}
+
+.footer .footer-banner {
+	background-color: #3598DB;
+	color: #fff;
+}
+
+.footer-content {
+	background-color: #1C2334;
+	padding: 20px;
+	color: #fff;
+}
+
+section div .footer-links {
+	float: left;
+	margin-right: 48px;
+}
+
+.footer-links h2 {
+	text-transform: uppercase;
+}
+
+.footer-links:first-child {
+	margin-left: 64px;
+}
