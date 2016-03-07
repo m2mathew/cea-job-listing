@@ -17,6 +17,10 @@ main header {
 	color: #fff;
 }
 
+.main .header h1 {
+	font-size: 64px;
+}
+
 main header p {
 	color: #2BC0F5;
 }
@@ -26,13 +30,25 @@ main header p {
 	color: #fff;
 }
 
-.footer-content {
+.footer .footer-banner h4 {
+
+}
+
+.footer .footer-banner a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+footer .footer .footer-content {
+	width: 100%;
+	margin: 0 auto;
 	background-color: #1C2334;
 	padding: 20px;
 	color: #fff;
 }
 
-section div .footer-links {
+.footer .footer-content .footer-links-container {
+	background-color: #1C2334;
 	float: left;
 	margin-right: 48px;
 }
