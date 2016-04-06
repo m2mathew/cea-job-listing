@@ -9,20 +9,71 @@ body {
 	padding: 20px;
 }
 
+.nav .nav-links {
+	display: inline;
+	list-style: none;
+}
+
+.nav .nav-links li {
+	display: inline;
+}
+
+.nav .nav-links a {
+	text-decoration: none;
+	color: #898989;
+}
+
+.nav .nav-links span .try-button {
+	width: 120em;
+	background-color: #2BC0F5;
+	color: #fff;
+  border-radius: 25px;
+  padding: 15px;
+}
+
+.nav .nav-links span .sign-in {
+	color: #FE4A29;
+}
+
+main {
+	background-color: #EAEDF1;
+}
+
 main header {
+	width: 100%;
 	margin: 0 auto;
 	text-align: center;
 	background-color: #1C2334;
-	padding: 20px;
+	padding: 60px 0;
 	color: #fff;
 }
 
-.main .header h1 {
-	font-size: 64px;
+main header .header-title {
+	font-size: 3em;
+	font-weight: 600;
 }
 
-main header p {
+main header .header-text {
+	padding-left: 350px;
+	padding-right: 350px;
+	text-align: center;
 	color: #2BC0F5;
+	font-size: 1.5em;
+	line-height: 1.6;
+}
+
+main .main-content .left-container {
+	background-color: #fff;
+	float: left;
+}
+
+main .main-content .right-container {
+	background-color: #fff;
+	float: right;
+}
+
+footer .footer {
+	width: 100%;
 }
 
 .footer .footer-banner {
@@ -39,7 +90,7 @@ main header p {
 	font-weight: bold;
 }
 
-footer .footer .footer-content {
+footer .footer section.footer-content {
 	width: 100%;
 	margin: 0 auto;
 	background-color: #1C2334;
@@ -55,6 +106,7 @@ footer .footer .footer-content {
 
 .footer-links h2 {
 	text-transform: uppercase;
+	color: #fff;
 }
 
 .footer-links:first-child {
