@@ -21,18 +21,37 @@ body {
 .nav .nav-links a {
 	text-decoration: none;
 	color: #898989;
+	font-weight: bold;
+	margin-right: 20px;
+	font-size: 0.9em;
+}
+
+.nav .nav-links a:hover {
+	color: #FE4A29;
 }
 
 .nav .nav-links span .try-button {
 	width: 120em;
 	background-color: #2BC0F5;
 	color: #fff;
+	font-weight: bold;
   border-radius: 25px;
-  padding: 15px;
+  padding: 15px 28px;
+  margin-left: 30px;
+  margin-right: 20px;
 }
 
-.nav .nav-links span .sign-in {
+.nav .nav-links span .try-button:hover {
+	background-color: #FE4A29;
+}
+
+.nav .nav-links span .sign-in a {
 	color: #FE4A29;
+	font-weight: bold;
+}
+
+.nav .nav-links span .sign-in a:hover {
+	color: #2BC0F5;
 }
 
 main {
@@ -60,6 +79,17 @@ main header .header-text {
 	color: #2BC0F5;
 	font-size: 1.5em;
 	line-height: 1.6;
+}
+
+main header #help-sidebar {
+	color: #fff;
+	background-color: #898989;
+	position: absolute;
+	top: 250px;
+	left: 0;
+	padding: 8px;
+	border: 1.5px solid white;
+	border-left: none;
 }
 
 main .main-content .left-container {
@@ -111,4 +141,16 @@ footer .footer section.footer-content {
 
 .footer-links:first-child {
 	margin-left: 64px;
+}
+
+.footer .footer-content #feedback-box {
+	position: absolute;
+	right: 100px;
+	bottom: 0;
+	width: 220px;
+	background-color: #0265A8;
+	color: #fff;
+	padding: 8px 10px;
+	border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
 }
