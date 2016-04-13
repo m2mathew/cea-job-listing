@@ -58,7 +58,7 @@ main {
 	background-color: #EAEDF1;
 }
 
-main header {
+header {
 	width: 100%;
 	margin: 0 auto;
 	text-align: center;
@@ -67,12 +67,12 @@ main header {
 	color: #fff;
 }
 
-main header .header-title {
+header .header-title {
 	font-size: 3em;
 	font-weight: 600;
 }
 
-main header .header-text {
+header .header-text {
 	padding-left: 350px;
 	padding-right: 350px;
 	text-align: center;
@@ -81,7 +81,7 @@ main header .header-text {
 	line-height: 1.6;
 }
 
-main header #help-sidebar {
+header #help-sidebar {
 	color: #fff;
 	background-color: #898989;
 	position: absolute;
@@ -92,12 +92,23 @@ main header #help-sidebar {
 	border-left: none;
 }
 
+main {
+	display: block;
+	width: 100%;
+	background-color: #EAEDF1;
+	text-align: center;
+}
+
 main .main-content .left-container {
+	display: block;
+	width: 250px;
 	background-color: #fff;
 	float: left;
 }
 
 main .main-content .right-container {
+	display: block;
+	width: 400px;
 	background-color: #fff;
 	float: right;
 }
