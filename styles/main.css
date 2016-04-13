@@ -96,21 +96,28 @@ main {
 	display: block;
 	width: 100%;
 	background-color: #EAEDF1;
+}
+
+main .main-content {
 	text-align: center;
+	padding: 50px 250px;
 }
 
 main .main-content .left-container {
 	display: block;
-	width: 250px;
+	width: 275px;
 	background-color: #fff;
-	float: left;
+	padding: 20px;
+	text-align: left;
 }
 
 main .main-content .right-container {
-	display: block;
+	display: inline-block;
 	width: 400px;
 	background-color: #fff;
+	padding: 20px;
 	float: right;
+	text-align: left;
 }
 
 footer .footer {
