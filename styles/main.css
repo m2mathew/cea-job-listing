@@ -2,12 +2,14 @@ body {
 	margin: 0 auto;
 	padding: 0;
 	font-family: 'Arial';
+	color: #898989;
 }
 
 .nav {
 	background-color: #fff;
-	padding: 40px 20px;
+	padding: 30px 20px;
 	text-align: center;
+	position: relative;
 }
 
 .nav .nav-links {
@@ -15,9 +17,26 @@ body {
 	list-style: none;
 }
 
-.nav .nav-container .cea-logo {
+.nav .nav-container {
+	line-height: 1.6;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.nav .nav-container .logo-wrapper {
 	display: inline-block;
-	width: 300px;
+}
+
+.nav .nav-container .logo-wrapper .cea-logo {
+	display: inline-block;
+	width: 275px;
+	padding-right: 25px;
+}
+
+.nav .nav-container .nav-links-container {
+	display: inline-block;
+	position: relative;
+	top: -22px;
 }
 
 .nav .nav-links li {
