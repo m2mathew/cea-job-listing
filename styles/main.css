@@ -149,6 +149,10 @@ footer .footer {
 	width: 100%;
 }
 
+.subtitle {
+	color: #aaa;
+}
+
 .footer .footer-banner {
 	padding: 20px 0;
 	background-color: #3598DB;
